@@ -10,6 +10,11 @@
 			<version>4.11</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency><!-- Added by joaquin pega -->
+			<groupId>org.mongodb</groupId>
+			<artifactId>mongo-java-driver</artifactId>
+			<version>2.12.3</version>
+		</dependency>
 	</dependencies>
   <build>
 		<plugins>	<!--Agregado para que funcione en la 1.7 -->
